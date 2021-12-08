@@ -1,5 +1,5 @@
-# basic-AsyncIO-unsinc-application
-Testing [unsinc library](https://github.com/alex-sherman/unsync) that unifies **AsyncIO**, **threading** and **multiprocessing**, making it very easy to integrate all three on the same application.
+# basic-AsyncIO-unsync-application
+Testing [unsync library](https://github.com/alex-sherman/unsync) that unifies **AsyncIO**, **threading** and **multiprocessing**, making it very easy to integrate all three on the same application.
 
 - **v1.py** runs all the functions single-threaded.
 - **v2-async.py** treats all the functions as asynchronous tasks even if they are not async compatible.
