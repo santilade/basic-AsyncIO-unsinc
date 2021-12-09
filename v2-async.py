@@ -48,7 +48,7 @@ async def download_some():
 
             text = await resp.text()
 
-    print("Downloaded (more) {:,} characters.".format(len(text)))
+    print("Downloaded {:,} characters.".format(len(text)))
 
 
 async def download_some_more():
@@ -59,7 +59,7 @@ async def download_some_more():
 
     text = resp.text
 
-    print("Downloaded {:,} characters.".format(len(text)))
+    print("Downloaded {:,} characters (more).".format(len(text)))
 
 
 async def wait_some():

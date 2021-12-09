@@ -48,7 +48,7 @@ def download_some_more():
 
     text = resp.text
 
-    print("Downloaded (more) {:,} characters.".format(len(text)))
+    print("Downloaded {:,} characters (more).".format(len(text)))
 
 
 def wait_some():
